@@ -1,0 +1,11 @@
+<resources>
+    <!-- loginActivity -->
+    <dimen name="login_edit_marginleft">55dp</dimen>
+    <dimen name="login_edit_marginright">55dp</dimen>
+    <dimen name="login_edit_margintop">20dp</dimen>
+    <dimen name="login_btn_marginleft">40dp</dimen>
+    <dimen name="login_btn_marginright">40dp</dimen>
+    <dimen name="login_login_margintop">24dp</dimen>
+    <dimen name="login_regist_margintop">16dp</dimen>
+    <dimen name="login_edit_hint">14sp</dimen>
+</resources>

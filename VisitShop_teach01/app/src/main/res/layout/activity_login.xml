@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_bg"
+    tools:context="com.bdqn.visitshop.activity.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/loginguide" />
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/et_name_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_edit_marginleft"
+                android:layout_marginRight="@dimen/login_edit_marginright"
+                android:layout_marginTop="@dimen/login_edit_margintop">
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/activity_login_et_name_hint"
+                    android:textColorHint="@color/login_texthint"
+                    android:textSize="@dimen/login_edit_hint" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/et_password_design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_edit_marginleft"
+                android:layout_marginRight="@dimen/login_edit_marginright"
+                android:layout_marginTop="@dimen/login_edit_margintop">
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/activity_login_et_password_hint"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/login_texthint"
+                    android:textSize="@dimen/login_edit_hint" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_btn_marginleft"
+                android:layout_marginRight="@dimen/login_btn_marginright"
+                android:layout_marginTop="@dimen/login_login_margintop"
+                android:background="@mipmap/login_btn"
+                android:text="@string/activity_login_et_btn_login"
+                android:textColor="@color/login_bg"
+                android:textSize="@dimen/login_edit_hint" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

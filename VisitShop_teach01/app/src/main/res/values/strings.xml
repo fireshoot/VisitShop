@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VisitShop_teach01</string>
+    <!-- activity LoginActivity -->
+    <string name="activity_login_et_name_hint">请输入用户名 </string>
+    <string name="activity_login_et_password_hint">请输入密码 </string>
+    <string name="activity_login_et_btn_login">登录</string>
+    <string name="activity_login_et_btn_regist">注册</string>
+</resources>
